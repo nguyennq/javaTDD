@@ -29,7 +29,7 @@ public class MessageServiceTest {
 
     @Before
     public void setUp() throws Exception {
-        MockitoAnnotations.initMocks(this);
+        MockitoAnnotations.initMocks(IMessage.class);
         messageService = new MessageService(iMessage);
     }
 
@@ -37,14 +37,14 @@ public class MessageServiceTest {
     public void testTimeFrameWhenInputValidParameter() throws Exception {
         Message message = preparedMessage();
         when(iMessage.timeFrame("Morning")).thenReturn(message);
-//        when(iMessage.timeFrame(anyString())).thenAnswer(new Answer<Message>() {
+//        when(iMessage.timeFrame(anyString())).th.classenAnswer(new Answer<Message>() {
 //            public Message answer(InvocationOnMock invocationOnMock) throws Throwable {
 //                return (Message)invocationOnMock.getArguments()[0];
 //            }
 //        });
         Message messAcutal = messageService.timeFrame("Morning");
         assertEquals("Good Morning",messAcutal.getGreeting());
-//        verify(iMessage).timeFrame(anyString());
+        verify(iMessage).timeFrame(anyString());
         verifyNoMoreInteractions(iMessage);
 
     }
