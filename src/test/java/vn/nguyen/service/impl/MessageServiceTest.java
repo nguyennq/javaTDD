@@ -44,7 +44,7 @@ public class MessageServiceTest {
 //        });
         Message messAcutal = messageService.timeFrame("Morning");
         assertEquals("Good Morning",messAcutal.getGreeting());
-        verify(iMessage).timeFrame(anyString());
+//        verify(iMessage).timeFrame(anyString());
         verifyNoMoreInteractions(iMessage);
 
     }
