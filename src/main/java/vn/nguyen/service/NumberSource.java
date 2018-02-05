@@ -5,4 +5,5 @@ package vn.nguyen.service;
  */
 public interface NumberSource {
     long fetchNumber();
+    long addTwoNumber(long firstNumber, long secondNumber);
 }

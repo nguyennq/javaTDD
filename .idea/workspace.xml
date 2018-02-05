@@ -2,13 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d196300-ee0f-413b-aef2-551c45db34e6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_9_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_7_25.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/vn/nguyen/service/impl/StringCalculator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/vn/nguyen/service/impl/StringCalculatorTest.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/vn/nguyen/App.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/vn/nguyen/Model/Book.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/vn/nguyen/Model/Calculator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/vn/nguyen/service/BookDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/vn/nguyen/service/NumberSource.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/vn/nguyen/service/impl/BookImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/vn/nguyen/service/impl/NumberSourceImpl.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/vn/nguyen/service/impl/NumberSourceImplTest.class" afterPath="$PROJECT_DIR$/target/test-classes/vn/nguyen/service/impl/NumberSourceImplTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaTDD.iml" afterPath="$PROJECT_DIR$/JavaTDD.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/vn/nguyen/service/impl/MessageServiceTest.java" afterPath="$PROJECT_DIR$/src/test/java/vn/nguyen/service/impl/MessageServiceTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/vn/nguyen/Model/Calculator.java" afterPath="$PROJECT_DIR$/src/main/java/vn/nguyen/Model/Calculator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/vn/nguyen/service/NumberSource.java" afterPath="$PROJECT_DIR$/src/main/java/vn/nguyen/service/NumberSource.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/vn/nguyen/service/impl/NumberSourceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/vn/nguyen/service/impl/NumberSourceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/vn/nguyen/service/impl/NumberSourceImplTest.java" afterPath="$PROJECT_DIR$/src/test/java/vn/nguyen/service/impl/NumberSourceImplTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,46 +51,65 @@
       <file leaf-file-name="MessageServiceTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/vn/nguyen/service/impl/MessageServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MessageService.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/vn/nguyen/service/impl/MessageService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="25" column="3" lean-forward="true" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
-              <folding>
-                <element signature="e#268#269#0" expanded="true" />
-                <element signature="e#308#309#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IMessage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/vn/nguyen/service/IMessage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="46" lean-forward="false" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+            <state relative-caret-position="122">
+              <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Message.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/vn/nguyen/Model/Message.java">
+      <file leaf-file-name="MessageService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/vn/nguyen/service/impl/MessageService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            <state relative-caret-position="270">
+              <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
               <folding>
-                <element signature="e#210#211#0" expanded="true" />
-                <element signature="e#241#242#0" expanded="true" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#268#269#0" expanded="false" />
+                <element signature="e#308#309#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="65" column="10" lean-forward="false" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Calculator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/vn/nguyen/Model/Calculator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NumberSource.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/vn/nguyen/service/NumberSource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="8" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NumberSourceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/vn/nguyen/service/impl/NumberSourceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding>
+                <element signature="e#438#439#0" expanded="true" />
+                <element signature="e#487#488#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -94,14 +125,36 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="StringCalculatorTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/vn/nguyen/service/impl/StringCalculatorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="50" column="22" lean-forward="true" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StringCalculator.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/vn/nguyen/service/impl/StringCalculator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -123,10 +176,6 @@
         <option value="$PROJECT_DIR$/src/main/java/vn/nguyen/service/BookImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/vn/nguyen/service/BookImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/vn/nguyen/service/impl/BookImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/vn/nguyen/service/NumberSource.java" />
-        <option value="$PROJECT_DIR$/src/test/java/vn/nguyen/service/impl/NumberSourceImplTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/vn/nguyen/Model/Calculator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/vn/nguyen/service/impl/NumberSourceImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/vn/nguyen/Model/CalculatorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/vn/nguyen/Model/Person.java" />
         <option value="$PROJECT_DIR$/src/main/java/vn/nguyen/service/PersonDAO.java" />
@@ -137,8 +186,14 @@
         <option value="$PROJECT_DIR$/src/main/java/vn/nguyen/service/impl/MessageService.java" />
         <option value="$PROJECT_DIR$/src/main/java/vn/nguyen/MessageClientApp.java" />
         <option value="$PROJECT_DIR$/src/test/java/vn/nguyen/MessageClientAppTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/vn/nguyen/service/impl/MessageServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/vn/nguyen/Model/Calculator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/vn/nguyen/service/NumberSource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/vn/nguyen/service/impl/NumberSourceImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/vn/nguyen/service/impl/NumberSourceImplTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/vn/nguyen/service/impl/StringCalculator.java" />
+        <option value="$PROJECT_DIR$/src/test/java/vn/nguyen/service/impl/StringCalculatorTest.java" />
       </list>
     </option>
   </component>
@@ -147,6 +202,13 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
@@ -167,9 +229,32 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
+    <option name="x" value="21" />
     <option name="y" value="23" />
-    <option name="width" value="1024" />
-    <option name="height" value="695" />
+    <option name="width" value="1398" />
+    <option name="height" value="796" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java language level migration aidsJava</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Since15</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -187,8 +272,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -379,12 +462,14 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -419,8 +504,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MessageServiceTest">
-    <configuration default="false" name="MessageServiceTest.testTimeFrameWhenInputValidParameter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.StringCalculatorTest.whenNewLinesIsUsedBetweenNumbersThenReturnValuesAreTheirSum">
+    <configuration default="false" name="StringCalculatorTest.whenAnyNumberOfNumberIsUsedThenReturnValueIsTheirSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="vn.nguyen.service.impl.*" />
@@ -431,8 +516,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="vn.nguyen.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="vn.nguyen.service.impl.MessageServiceTest" />
-      <option name="METHOD_NAME" value="testTimeFrameWhenInputValidParameter" />
+      <option name="MAIN_CLASS_NAME" value="vn.nguyen.service.impl.StringCalculatorTest" />
+      <option name="METHOD_NAME" value="whenAnyNumberOfNumberIsUsedThenReturnValueIsTheirSum" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -446,7 +531,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="MessageServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="StringCalculatorTest.whenMoreThan2NumbersAreUsedThenExceptionIsThrown" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="vn.nguyen.service.impl.*" />
@@ -457,34 +542,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="vn.nguyen.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="vn.nguyen.service.impl.MessageServiceTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="MessageClientAppTest.testGetGreetings_TimeFrameWhenInputValidParameter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="vn.nguyen.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="JavaTDD" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="vn.nguyen" />
-      <option name="MAIN_CLASS_NAME" value="vn.nguyen.MessageClientAppTest" />
-      <option name="METHOD_NAME" value="testGetGreetings_TimeFrameWhenInputValidParameter" />
+      <option name="MAIN_CLASS_NAME" value="vn.nguyen.service.impl.StringCalculatorTest" />
+      <option name="METHOD_NAME" value="whenMoreThan2NumbersAreUsedThenExceptionIsThrown" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -498,7 +557,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="MessageServiceTest.testTimeFrame_SouldReturnMorningWhenTimeFrameIsMorning" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="StringCalculatorTest.when2NumbersAreUsedThenNoExceptionIsThrown" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="vn.nguyen.service.impl.*" />
@@ -509,8 +568,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="vn.nguyen.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="vn.nguyen.service.impl.MessageServiceTest" />
-      <option name="METHOD_NAME" value="testTimeFrame_SouldReturnMorningWhenTimeFrameIsMorning" />
+      <option name="MAIN_CLASS_NAME" value="vn.nguyen.service.impl.StringCalculatorTest" />
+      <option name="METHOD_NAME" value="when2NumbersAreUsedThenNoExceptionIsThrown" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -524,7 +583,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="MessageServiceTest.testTimeFrame_ShouldReturnAfternoonWhenTimeFrameIsAfternoon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="StringCalculatorTest.whenNonNumberIsUsedThenExceptionIsThrown" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="vn.nguyen.service.impl.*" />
@@ -535,8 +594,34 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="vn.nguyen.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="vn.nguyen.service.impl.MessageServiceTest" />
-      <option name="METHOD_NAME" value="testTimeFrame_ShouldReturnAfternoonWhenTimeFrameIsAfternoon" />
+      <option name="MAIN_CLASS_NAME" value="vn.nguyen.service.impl.StringCalculatorTest" />
+      <option name="METHOD_NAME" value="whenNonNumberIsUsedThenExceptionIsThrown" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="StringCalculatorTest.whenNewLinesIsUsedBetweenNumbersThenReturnValuesAreTheirSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="vn.nguyen.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="JavaTDD" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="vn.nguyen.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="vn.nguyen.service.impl.StringCalculatorTest" />
+      <option name="METHOD_NAME" value="whenNewLinesIsUsedBetweenNumbersThenReturnValuesAreTheirSum" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1018,19 +1103,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.MessageServiceTest.testTimeFrameWhenInputValidParameter" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.MessageServiceTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.MessageClientAppTest.testGetGreetings_TimeFrameWhenInputValidParameter" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.MessageServiceTest.testTimeFrame_SouldReturnMorningWhenTimeFrameIsMorning" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.MessageServiceTest.testTimeFrame_ShouldReturnAfternoonWhenTimeFrameIsAfternoon" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.StringCalculatorTest.whenAnyNumberOfNumberIsUsedThenReturnValueIsTheirSum" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.StringCalculatorTest.whenMoreThan2NumbersAreUsedThenExceptionIsThrown" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.StringCalculatorTest.when2NumbersAreUsedThenNoExceptionIsThrown" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.StringCalculatorTest.whenNonNumberIsUsedThenExceptionIsThrown" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.StringCalculatorTest.whenNewLinesIsUsedBetweenNumbersThenReturnValuesAreTheirSum" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MessageServiceTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.MessageServiceTest.testTimeFrame_ShouldReturnAfternoonWhenTimeFrameIsAfternoon" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.MessageServiceTest.testTimeFrame_SouldReturnMorningWhenTimeFrameIsMorning" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.MessageServiceTest.testTimeFrameWhenInputValidParameter" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.MessageClientAppTest.testGetGreetings_TimeFrameWhenInputValidParameter" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.StringCalculatorTest.whenNewLinesIsUsedBetweenNumbersThenReturnValuesAreTheirSum" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.StringCalculatorTest.whenAnyNumberOfNumberIsUsedThenReturnValueIsTheirSum" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.StringCalculatorTest.whenMoreThan2NumbersAreUsedThenExceptionIsThrown" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.StringCalculatorTest.whenNonNumberIsUsedThenExceptionIsThrown" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.StringCalculatorTest.when2NumbersAreUsedThenNoExceptionIsThrown" />
       </list>
     </recent_temporary>
   </component>
@@ -1059,7 +1144,9 @@
       <workItem from="1512544786156" duration="94000" />
       <workItem from="1513136437870" duration="43000" />
       <workItem from="1514186016907" duration="34000" />
-      <workItem from="1516179449451" duration="4335000" />
+      <workItem from="1516179449451" duration="5581000" />
+      <workItem from="1516784488877" duration="1977000" />
+      <workItem from="1517386598431" duration="16626000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor code">
       <created>1511770627238</created>
@@ -1089,79 +1176,86 @@
       <option name="project" value="LOCAL" />
       <updated>1512373982930</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Bổ sung them viet testing theo Mockito Given/When/Then">
+      <created>1516194019776</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1516194019776</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MessageServiceTest - 2018.01.17 at 17h 29m 23s.xml">
-      <configuration name="MessageServiceTest" configurationId="JUnit" />
+    <history-entry file="StringCalculatorTest_when2NumbersAreUsedThenNoExceptionIsThrown - 2018.02.05 at 15h 51m 22s.xml">
+      <configuration name="StringCalculatorTest.when2NumbersAreUsedThenNoExceptionIsThrown" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MessageServiceTest - 2018.01.17 at 19h 49m 12s.xml">
-      <configuration name="MessageServiceTest" configurationId="JUnit" />
+    <history-entry file="StringCalculatorTest_whenAnyNumberOfNumberIsUsedThenReturnValueIsTheirSum - 2018.02.05 at 15h 50m 17s.xml">
+      <configuration name="StringCalculatorTest.whenAnyNumberOfNumberIsUsedThenReturnValueIsTheirSum" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MessageServiceTest_testTimeFrame_ShouldReturnAfternoonWhenTimeFrameIsAfternoon - 2018.01.17 at 19h 48m 09s.xml">
-      <configuration name="MessageServiceTest.testTimeFrame_ShouldReturnAfternoonWhenTimeFrameIsAfternoon" configurationId="JUnit" />
+    <history-entry file="StringCalculatorTest_whenAnyNumberOfNumberIsUsedThenReturnValueIsTheirSum - 2018.02.05 at 15h 52m 01s.xml">
+      <configuration name="StringCalculatorTest.whenAnyNumberOfNumberIsUsedThenReturnValueIsTheirSum" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MessageServiceTest_testTimeFrame_ShouldReturnAfternoonWhenTimeFrameIsAfternoon - 2018.01.17 at 19h 48m 29s.xml">
-      <configuration name="MessageServiceTest.testTimeFrame_ShouldReturnAfternoonWhenTimeFrameIsAfternoon" configurationId="JUnit" />
+    <history-entry file="StringCalculatorTest_whenAnyNumberOfNumberIsUsedThenReturnValueIsTheirSum - 2018.02.05 at 15h 53m 00s.xml">
+      <configuration name="StringCalculatorTest.whenAnyNumberOfNumberIsUsedThenReturnValueIsTheirSum" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MessageServiceTest_testTimeFrame_SouldReturnMorningWhenTimeFrameIsMorning - 2018.01.17 at 17h 23m 17s.xml">
-      <configuration name="MessageServiceTest.testTimeFrame_SouldReturnMorningWhenTimeFrameIsMorning" configurationId="JUnit" />
+    <history-entry file="StringCalculatorTest_whenEmptyStringIsUsedThenReturnValueIs0 - 2018.02.05 at 15h 46m 25s.xml">
+      <configuration name="StringCalculatorTest.whenEmptyStringIsUsedThenReturnValueIs0" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MessageServiceTest_testTimeFrame_SouldReturnMorningWhenTimeFrameIsMorning - 2018.01.17 at 17h 26m 58s.xml">
-      <configuration name="MessageServiceTest.testTimeFrame_SouldReturnMorningWhenTimeFrameIsMorning" configurationId="JUnit" />
+    <history-entry file="StringCalculatorTest_whenMoreThan2NumbersAreUsedThenExceptionIsThrown - 2018.02.05 at 15h 51m 14s.xml">
+      <configuration name="StringCalculatorTest.whenMoreThan2NumbersAreUsedThenExceptionIsThrown" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MessageServiceTest_testTimeFrame_SouldReturnMorningWhenTimeFrameIsMorning - 2018.01.17 at 17h 27m 47s.xml">
-      <configuration name="MessageServiceTest.testTimeFrame_SouldReturnMorningWhenTimeFrameIsMorning" configurationId="JUnit" />
+    <history-entry file="StringCalculatorTest_whenMoreThan2NumbersAreUsedThenExceptionIsThrown - 2018.02.05 at 15h 51m 47s.xml">
+      <configuration name="StringCalculatorTest.whenMoreThan2NumbersAreUsedThenExceptionIsThrown" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MessageServiceTest_testTimeFrame_SouldReturnMorningWhenTimeFrameIsMorning - 2018.01.17 at 17h 28m 20s.xml">
-      <configuration name="MessageServiceTest.testTimeFrame_SouldReturnMorningWhenTimeFrameIsMorning" configurationId="JUnit" />
+    <history-entry file="StringCalculatorTest_whenNewLinesIsUsedBetweenNumbersThenReturnValuesAreTheirSum - 2018.02.05 at 16h 00m 49s.xml">
+      <configuration name="StringCalculatorTest.whenNewLinesIsUsedBetweenNumbersThenReturnValuesAreTheirSum" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MessageServiceTest_testTimeFrame_SouldReturnMorningWhenTimeFrameIsMorning - 2018.01.17 at 17h 29m 12s.xml">
-      <configuration name="MessageServiceTest.testTimeFrame_SouldReturnMorningWhenTimeFrameIsMorning" configurationId="JUnit" />
+    <history-entry file="StringCalculatorTest_whenNonNumberIsUsedThenExceptionIsThrown - 2018.02.05 at 15h 51m 33s.xml">
+      <configuration name="StringCalculatorTest.whenNonNumberIsUsedThenExceptionIsThrown" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MessageServiceTest_testTimeFrame_SouldReturnMorningWhenTimeFrameIsMorning - 2018.01.17 at 19h 47m 56s.xml">
-      <configuration name="MessageServiceTest.testTimeFrame_SouldReturnMorningWhenTimeFrameIsMorning" configurationId="JUnit" />
+    <history-entry file="StringCalculatorTest_whenTwoNumberAreUsedThenReturnValueIsTheirSum - 2018.02.05 at 15h 46m 30s.xml">
+      <configuration name="StringCalculatorTest.whenTwoNumberAreUsedThenReturnValueIsTheirSum" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34439000" />
+    <option name="totallyTimeSpent" value="54288000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1024" height="695" extended-state="6" />
+    <frame x="21" y="23" width="1398" height="796" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39772728" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938564" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3252841" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32965517" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32079646" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4397496" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39906102" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32707354" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875606" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32965517" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43075356" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43892047" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875606" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1173,11 +1267,46 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Refactor code" />
     <MESSAGE value="Bổ sung thêm bài tập" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bổ sung thêm bài tập" />
+    <MESSAGE value="Bổ sung them viet testing theo Mockito Given/When/Then" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bổ sung them viet testing theo Mockito Given/When/Then" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="12" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/vn/nguyen/service/impl/NumberSourceImplTest.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/vn/nguyen/Model/Calculator.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/vn/nguyen/service/impl/NumberSourceImplTest.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/vn/nguyen/service/impl/NumberSourceImpl.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/vn/nguyen/service/NumberSource.java</url>
+          <line>7</line>
+          <properties class="vn.nguyen.service.NumberSource" method="addTwoNumber">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="20" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1186,35 +1315,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/vn/nguyen/Model/Message.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-          <folding>
-            <element signature="e#241#242#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/vn/nguyen/service/IMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="46" lean-forward="false" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/vn/nguyen/service/impl/MessageService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="32" column="5" lean-forward="false" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-          <folding>
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -1285,7 +1385,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
           <caret line="50" column="46" lean-forward="true" selection-start-line="50" selection-start-column="46" selection-end-line="50" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1315,7 +1414,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1378,24 +1476,10 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/vn/nguyen/NewRestaurant.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/vn/nguyen/NewRestaurantTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/vn/nguyen/Restaurant.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/vn/nguyen/Model/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="203" column="0" lean-forward="false" selection-start-line="203" selection-start-column="0" selection-end-line="203" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/vn/nguyen/service/NumberSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1406,40 +1490,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/vn/nguyen/Model/Calculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="55" lean-forward="false" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/vn/nguyen/service/impl/NumberSourceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/vn/nguyen/service/impl/BookImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-292">
-          <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/vn/nguyen/service/impl/NumberSourceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/vn/nguyen/MessageClientAppTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/vn/nguyen/MessageClientApp.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/vn/nguyen/service/impl/BookImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/vn/nguyen/Model/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="90">
+          <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/vn/nguyen/Model/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="e#210#211#0" expanded="false" />
+            <element signature="e#241#242#0" expanded="false" />
+            <element signature="e#289#290#0" expanded="false" />
+            <element signature="e#329#330#0" expanded="false" />
+            <element signature="e#364#365#0" expanded="false" />
+            <element signature="e#395#396#0" expanded="false" />
+            <element signature="e#443#444#0" expanded="false" />
+            <element signature="e#483#484#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/vn/nguyen/service/IMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="46" lean-forward="false" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/vn/nguyen/service/impl/PersonServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1454,59 +1557,103 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/vn/nguyen/service/impl/PersonService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="278">
+          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+          <folding>
+            <element signature="e#256#257#0" expanded="false" />
+            <element signature="e#298#299#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/vn/nguyen/Model/Person.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+        <state relative-caret-position="122">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding>
+            <element signature="e#1657#1658#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/vn/nguyen/Model/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-379">
+          <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/vn/nguyen/service/impl/PersonServiceTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/vn/nguyen/service/impl/BookImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="29" column="60" lean-forward="false" selection-start-line="29" selection-start-column="60" selection-end-line="29" selection-end-column="60" />
+        <state relative-caret-position="-617">
+          <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/vn/nguyen/service/impl/MessageServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/vn/nguyen/service/impl/MessageService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="270">
+          <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#268#269#0" expanded="false" />
+            <element signature="e#308#309#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/vn/nguyen/service/impl/BookImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="e#326#327#0" expanded="false" />
+            <element signature="e#371#372#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/vn/nguyen/Model/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/vn/nguyen/service/NumberSource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="8" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="43" column="43" lean-forward="true" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
+        <state relative-caret-position="315">
+          <caret line="65" column="10" lean-forward="false" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/vn/nguyen/Model/Message.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/vn/nguyen/service/impl/NumberSourceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="275">
+          <caret line="40" column="4" lean-forward="false" selection-start-line="40" selection-start-column="4" selection-end-line="44" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1518,34 +1665,122 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/vn/nguyen/service/IMessage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/vn/nguyen/service/impl/NumberSourceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="46" lean-forward="false" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
-          <folding />
+        <state relative-caret-position="285">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/vn/nguyen/service/impl/MessageServiceTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/vn/nguyen/service/impl/StringCalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="31" />
+        <state relative-caret-position="275">
+          <caret line="50" column="22" lean-forward="true" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/vn/nguyen/service/impl/MessageService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/vn/nguyen/service/impl/StringCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="25" column="3" lean-forward="true" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
-          <folding>
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>Android API 26 Platform</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>JavaTDD</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: junit:junit:4.12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

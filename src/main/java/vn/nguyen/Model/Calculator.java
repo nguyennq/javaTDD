@@ -12,8 +12,8 @@ public class Calculator {
     }
 
     public long fetchTwoAndAdd(){
-        long firtNumber = numberSource.fetchNumber();
+        long firstNumber = numberSource.fetchNumber();
         long secondNumber = numberSource.fetchNumber();
-        return firtNumber+secondNumber;
+        return firstNumber+secondNumber;
     }
 }

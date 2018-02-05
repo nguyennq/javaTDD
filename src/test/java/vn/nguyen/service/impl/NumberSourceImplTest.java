@@ -2,6 +2,7 @@ package vn.nguyen.service.impl;
 
 import org.junit.Before;
 import org.junit.Test;
+import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
@@ -18,21 +19,29 @@ public class NumberSourceImplTest {
 
     @Mock
     private NumberSource numberSource;
+    @InjectMocks
+    private NumberSourceImpl numberSourceImpl;
 
-    public static final long FIRST_NUMNER = 123456789L;
-    public static final long SECOND_NUMNER = 987654321L;
+    public static final long FIRST_NUMBER = 10L;
+    public static final long SECOND_NUMBER = 20L;
     @Before
     public void setUp() throws Exception {
         MockitoAnnotations.initMocks(this);
-        Mockito.when(numberSource.fetchNumber()).thenReturn(FIRST_NUMNER, SECOND_NUMNER);
+        numberSourceImpl = new NumberSourceImpl(numberSource);
+        Mockito.when(numberSource.fetchNumber()).thenReturn(FIRST_NUMBER, SECOND_NUMBER);
     }
 
     @Test
     public void addTwoNumberFromSource(){
         Calculator calculator = new Calculator(numberSource);
         long actual = calculator.fetchTwoAndAdd();
-        assertThat(actual,is(FIRST_NUMNER + SECOND_NUMNER));
+        assertThat(actual,is(FIRST_NUMBER + SECOND_NUMBER));
+    }
 
+    @Test
+    public void addTwoNumber_ShouldReturnSumOf2Number() throws Exception {
+        long numberActual = numberSourceImpl.addTwoNumber(FIRST_NUMBER, SECOND_NUMBER);
+        assertThat(numberActual,is(FIRST_NUMBER + SECOND_NUMBER));
     }
 
 }
