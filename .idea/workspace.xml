@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d196300-ee0f-413b-aef2-551c45db34e6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/vn/nguyen/Model/TaxCalculator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/vn/nguyen/Model/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/vn/nguyen/service/SecurityService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/vn/nguyen/service/UserDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/vn/nguyen/service/UserService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/vn/nguyen/service/impl/UserServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/vn/nguyen/Model/TaxCalculatorTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/vn/nguyen/service/impl/UserServiceImplTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/vn/nguyen/AppTest.class" afterPath="$PROJECT_DIR$/target/test-classes/vn/nguyen/AppTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/vn/nguyen/service/impl/BookImplTest.class" afterPath="$PROJECT_DIR$/target/test-classes/vn/nguyen/service/impl/BookImplTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/vn/nguyen/service/impl/StringCalculator.java" afterPath="$PROJECT_DIR$/src/main/java/vn/nguyen/service/impl/StringCalculator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/vn/nguyen/service/impl/StringCalculatorTest.java" afterPath="$PROJECT_DIR$/src/test/java/vn/nguyen/service/impl/StringCalculatorTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/vn/nguyen/Model/TaxCalculator.java" afterPath="$PROJECT_DIR$/src/main/java/vn/nguyen/Model/TaxCalculator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/vn/nguyen/Model/TaxCalculatorTest.java" afterPath="$PROJECT_DIR$/src/test/java/vn/nguyen/Model/TaxCalculatorTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -86,12 +76,9 @@
       <file leaf-file-name="TaxCalculator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/vn/nguyen/Model/TaxCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-              <folding>
-                <element signature="e#143#144#0" expanded="true" />
-                <element signature="e#175#176#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="120">
+              <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -99,8 +86,8 @@
       <file leaf-file-name="TaxCalculatorTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/vn/nguyen/Model/TaxCalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+            <state relative-caret-position="333">
+              <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -108,11 +95,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CalculatorTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/vn/nguyen/Model/CalculatorTest.java">
+      <file leaf-file-name="ReflectiveCallable.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="28" column="24" lean-forward="false" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+            <state relative-caret-position="195">
+              <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -524,33 +511,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TaxCalculatorTest.when_income_less_than_5Lacs_then_deducts_10_percent_tax">
-    <configuration default="false" name="StringCalculatorTest.whenDelimiterIsSpecifiedThenItUsedToSeparateNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="vn.nguyen.service.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="JavaTDD" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="vn.nguyen.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="vn.nguyen.service.impl.StringCalculatorTest" />
-      <option name="METHOD_NAME" value="whenDelimiterIsSpecifiedThenItUsedToSeparateNumber" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.TaxCalculatorTest.when_income_between_5lacs_and_10lacs_then_deducts_fifty_thousand_plus_20_percent_above_5lacs">
     <configuration default="false" name="StringCalculatorTest.whenNegativeNumberIsUsedThenRuntimeExceptionIsThrown" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -642,6 +603,32 @@
       <option name="PACKAGE_NAME" value="vn.nguyen.Model" />
       <option name="MAIN_CLASS_NAME" value="vn.nguyen.Model.TaxCalculatorTest" />
       <option name="METHOD_NAME" value="when_income_less_than_5Lacs_then_deducts_10_percent_tax" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TaxCalculatorTest.when_income_between_5lacs_and_10lacs_then_deducts_fifty_thousand_plus_20_percent_above_5lacs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="vn.nguyen.Model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="JavaTDD" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="vn.nguyen.Model" />
+      <option name="MAIN_CLASS_NAME" value="vn.nguyen.Model.TaxCalculatorTest" />
+      <option name="METHOD_NAME" value="when_income_between_5lacs_and_10lacs_then_deducts_fifty_thousand_plus_20_percent_above_5lacs" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1123,19 +1110,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.StringCalculatorTest.whenDelimiterIsSpecifiedThenItUsedToSeparateNumber" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.StringCalculatorTest.whenNegativeNumberIsUsedThenRuntimeExceptionIsThrown" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.StringCalculatorTest.whenNegativeNumbersAreUsedThenRuntimeExceptionIsThrown" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.UserServiceImplTest.assignPassword" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TaxCalculatorTest.when_income_less_than_5Lacs_then_deducts_10_percent_tax" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.StringCalculatorTest.whenNegativeNumberIsUsedThenRuntimeExceptionIsThrown" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.StringCalculatorTest.whenNegativeNumbersAreUsedThenRuntimeExceptionIsThrown" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.UserServiceImplTest.assignPassword" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TaxCalculatorTest.when_income_less_than_5Lacs_then_deducts_10_percent_tax" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TaxCalculatorTest.when_income_between_5lacs_and_10lacs_then_deducts_fifty_thousand_plus_20_percent_above_5lacs" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TaxCalculatorTest.when_income_less_than_5Lacs_then_deducts_10_percent_tax" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.UserServiceImplTest.assignPassword" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.StringCalculatorTest.whenNegativeNumbersAreUsedThenRuntimeExceptionIsThrown" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.StringCalculatorTest.whenNegativeNumberIsUsedThenRuntimeExceptionIsThrown" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.StringCalculatorTest.whenDelimiterIsSpecifiedThenItUsedToSeparateNumber" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TaxCalculatorTest.when_income_between_5lacs_and_10lacs_then_deducts_fifty_thousand_plus_20_percent_above_5lacs" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TaxCalculatorTest.when_income_less_than_5Lacs_then_deducts_10_percent_tax" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.UserServiceImplTest.assignPassword" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.StringCalculatorTest.whenNegativeNumbersAreUsedThenRuntimeExceptionIsThrown" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.StringCalculatorTest.whenNegativeNumberIsUsedThenRuntimeExceptionIsThrown" />
       </list>
     </recent_temporary>
   </component>
@@ -1166,7 +1153,7 @@
       <workItem from="1514186016907" duration="34000" />
       <workItem from="1516179449451" duration="5581000" />
       <workItem from="1516784488877" duration="1977000" />
-      <workItem from="1517386598431" duration="29112000" />
+      <workItem from="1517386598431" duration="30459000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor code">
       <created>1511770627238</created>
@@ -1210,43 +1197,50 @@
       <option name="project" value="LOCAL" />
       <updated>1517821293697</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Bo sung UserImpl and Test&#10;Bo sung TaxCalculator">
+      <created>1517993920597</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1517993920597</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TaxCalculatorTest_when_income_less_than_5Lacs_then_deducts_10_percent_tax - 2018.02.07 at 15h 57m 13s.xml">
+    <history-entry file="TaxCalculatorTest_when_income_between_5lacs_and_10lacs_then_deducts_fifty_thousand_plus_20_percent_above_5lacs - 2018.02.07 at 16h 12m 30s.xml">
+      <configuration name="TaxCalculatorTest.when_income_between_5lacs_and_10lacs_then_deducts_fifty_thousand_plus_20_percent_above_5lacs" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TaxCalculatorTest_when_income_between_5lacs_and_10lacs_then_deducts_fifty_thousand_plus_20_percent_above_5lacs - 2018.02.07 at 16h 13m 39s.xml">
+      <configuration name="TaxCalculatorTest.when_income_between_5lacs_and_10lacs_then_deducts_fifty_thousand_plus_20_percent_above_5lacs" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TaxCalculatorTest_when_income_between_5lacs_and_10lacs_then_deducts_fifty_thousand_plus_20_percent_above_5lacs - 2018.02.07 at 16h 17m 41s.xml">
+      <configuration name="TaxCalculatorTest.when_income_between_5lacs_and_10lacs_then_deducts_fifty_thousand_plus_20_percent_above_5lacs" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TaxCalculatorTest_when_income_between_5lacs_and_10lacs_then_deducts_fifty_thousand_plus_20_percent_above_5lacs - 2018.02.07 at 16h 19m 46s.xml">
+      <configuration name="TaxCalculatorTest.when_income_between_5lacs_and_10lacs_then_deducts_fifty_thousand_plus_20_percent_above_5lacs" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TaxCalculatorTest_when_income_less_than_5Lacs_then_deducts_10_percent_tax - 2018.02.07 at 16h 03m 17s.xml">
       <configuration name="TaxCalculatorTest.when_income_less_than_5Lacs_then_deducts_10_percent_tax" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TaxCalculatorTest_when_income_less_than_5Lacs_then_deducts_10_percent_tax - 2018.02.07 at 15h 57m 40s.xml">
+    <history-entry file="TaxCalculatorTest_when_income_less_than_5Lacs_then_deducts_10_percent_tax - 2018.02.07 at 16h 07m 37s.xml">
       <configuration name="TaxCalculatorTest.when_income_less_than_5Lacs_then_deducts_10_percent_tax" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserServiceImplTest_assignPassword - 2018.02.07 at 15h 41m 07s.xml">
-      <configuration name="UserServiceImplTest.assignPassword" configurationId="JUnit" />
+    <history-entry file="TaxCalculatorTest_when_income_less_than_5Lacs_then_deducts_10_percent_tax - 2018.02.07 at 16h 07m 55s.xml">
+      <configuration name="TaxCalculatorTest.when_income_less_than_5Lacs_then_deducts_10_percent_tax" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserServiceImplTest_assignPassword - 2018.02.07 at 15h 42m 03s.xml">
-      <configuration name="UserServiceImplTest.assignPassword" configurationId="JUnit" />
+    <history-entry file="TaxCalculatorTest_when_income_less_than_5Lacs_then_deducts_10_percent_tax - 2018.02.07 at 16h 08m 56s.xml">
+      <configuration name="TaxCalculatorTest.when_income_less_than_5Lacs_then_deducts_10_percent_tax" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserServiceImplTest_assignPassword - 2018.02.07 at 15h 43m 06s.xml">
-      <configuration name="UserServiceImplTest.assignPassword" configurationId="JUnit" />
+    <history-entry file="TaxCalculatorTest_when_income_less_than_5Lacs_then_deducts_10_percent_tax - 2018.02.07 at 16h 09m 52s.xml">
+      <configuration name="TaxCalculatorTest.when_income_less_than_5Lacs_then_deducts_10_percent_tax" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserServiceImplTest_assignPassword - 2018.02.07 at 15h 43m 15s.xml">
-      <configuration name="UserServiceImplTest.assignPassword" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserServiceImplTest_assignPassword - 2018.02.07 at 15h 43m 43s.xml">
-      <configuration name="UserServiceImplTest.assignPassword" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserServiceImplTest_assignPassword - 2018.02.07 at 15h 43m 53s.xml">
-      <configuration name="UserServiceImplTest.assignPassword" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserServiceImplTest_assignPassword - 2018.02.07 at 15h 44m 29s.xml">
-      <configuration name="UserServiceImplTest.assignPassword" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserServiceImplTest_assignPassword - 2018.02.07 at 15h 44m 48s.xml">
-      <configuration name="UserServiceImplTest.assignPassword" configurationId="JUnit" />
+    <history-entry file="TaxCalculatorTest_when_income_less_than_5Lacs_then_deducts_10_percent_tax - 2018.02.07 at 16h 10m 29s.xml">
+      <configuration name="TaxCalculatorTest.when_income_less_than_5Lacs_then_deducts_10_percent_tax" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66774000" />
+    <option name="totallyTimeSpent" value="68121000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="21" y="23" width="1398" height="796" extended-state="0" />
@@ -1296,7 +1290,8 @@
     <MESSAGE value="Bổ sung thêm bài tập" />
     <MESSAGE value="Bổ sung them viet testing theo Mockito Given/When/Then" />
     <MESSAGE value="Bổ sung them String Calculator with TDD" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bổ sung them String Calculator with TDD" />
+    <MESSAGE value="Bo sung UserImpl and Test&#10;Bo sung TaxCalculator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bo sung UserImpl and Test&#10;Bo sung TaxCalculator" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1343,6 +1338,12 @@
           <properties />
           <option name="timeStamp" value="36" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/vn/nguyen/Model/TaxCalculator.java</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/vn/nguyen/service/NumberSource.java</url>
           <line>7</line>
@@ -1352,7 +1353,7 @@
           <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="37" />
+      <option name="time" value="41" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1607,7 +1608,7 @@
         <state relative-caret-position="538">
           <caret line="71" column="9" lean-forward="true" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1652,14 +1653,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="47" lean-forward="true" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-all/1.9.5/mockito-all-1.9.5.jar!/org/mockito/internal/creation/MethodInterceptorFilter.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -1683,8 +1676,8 @@
         <state relative-caret-position="102">
           <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
           <folding>
-            <element signature="e#256#257#0" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="false" />
+            <element signature="e#298#299#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1745,21 +1738,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/vn/nguyen/Model/TaxCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-          <folding>
-            <element signature="e#143#144#0" expanded="true" />
-            <element signature="e#175#176#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/vn/nguyen/Model/TaxCalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        <state relative-caret-position="333">
+          <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
