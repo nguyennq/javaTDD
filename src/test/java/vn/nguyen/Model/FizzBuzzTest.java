@@ -17,9 +17,9 @@ public class FizzBuzzTest {
     }
 
     @Test
-    public void testNumber() throws Exception {
+    public void testNumberShouldReturn1WhenInputNumnerIs1() throws Exception {
         FizzBuzz fizzBuzz = new FizzBuzz();
-        String actual = "Fizz";
-        assertThat(actual,is(fizzBuzz.numberFizzBuzz(3)));
+        String actual = "1";
+        assertThat(actual,is(fizzBuzz.numberFizzBuzz(1)));
     }
 }
