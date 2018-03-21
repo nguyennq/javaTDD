@@ -4,6 +4,7 @@
     <list default="true" id="6d196300-ee0f-413b-aef2-551c45db34e6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/vn/nguyen/Model/FizzBuzz.java" afterPath="$PROJECT_DIR$/src/main/java/vn/nguyen/Model/FizzBuzz.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/vn/nguyen/Model/FizzBuzzTest.java" afterPath="$PROJECT_DIR$/src/test/java/vn/nguyen/Model/FizzBuzzTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,21 +35,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/vn/nguyen/service/impl/UserServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-              <folding>
-                <element signature="e#888#889#0" expanded="true" />
-                <element signature="e#933#934#0" expanded="true" />
-                <element signature="e#1127#1128#0" expanded="true" />
-                <element signature="e#1155#1156#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="UserServiceImplTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/vn/nguyen/service/impl/UserServiceImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -101,24 +87,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FizzBuzz.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FizzBuzz.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/vn/nguyen/Model/FizzBuzz.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="37" lean-forward="false" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-              <folding>
-                <element signature="e#134#135#0" expanded="true" />
-                <element signature="e#179#180#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="285">
+              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FizzBuzzTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FizzBuzzTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/vn/nguyen/Model/FizzBuzzTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+            <state relative-caret-position="370">
+              <caret line="27" column="74" lean-forward="false" selection-start-line="27" selection-start-column="74" selection-end-line="27" selection-end-column="74" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -578,86 +561,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FizzBuzzTest.testNumberShouldReturn1WhenInputNumnerIs1">
-    <configuration default="false" name="StringHelperTest.testswapLast2CharsWith10Char" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="vn.nguyen.Model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="JavaTDD" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="vn.nguyen.Model" />
-      <option name="MAIN_CLASS_NAME" value="vn.nguyen.Model.StringHelperTest" />
-      <option name="METHOD_NAME" value="testswapLast2CharsWith10Char" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="StringHelperTest.testswapLast2CharsWith1Char" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="vn.nguyen.Model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="JavaTDD" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="vn.nguyen.Model" />
-      <option name="MAIN_CLASS_NAME" value="vn.nguyen.Model.StringHelperTest" />
-      <option name="METHOD_NAME" value="testswapLast2CharsWith1Char" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="StringHelperTest.testswapLast2CharsWith0Char" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="vn.nguyen.Model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="JavaTDD" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="vn.nguyen.Model" />
-      <option name="MAIN_CLASS_NAME" value="vn.nguyen.Model.StringHelperTest" />
-      <option name="METHOD_NAME" value="testswapLast2CharsWith0Char" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="FizzBuzzTest.testNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.FizzBuzzTest">
+    <configuration default="false" name="FizzBuzzTest.testnumberFizzBuzzShouldReturnFizzWhenInputNumberDivisibleBy3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="vn.nguyen.Model.*" />
@@ -669,7 +574,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="vn.nguyen.Model" />
       <option name="MAIN_CLASS_NAME" value="vn.nguyen.Model.FizzBuzzTest" />
-      <option name="METHOD_NAME" value="testNumber" />
+      <option name="METHOD_NAME" value="testnumberFizzBuzzShouldReturnFizzWhenInputNumberDivisibleBy3" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -683,7 +588,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="FizzBuzzTest.testNumberShouldReturn1WhenInputNumnerIs1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="FizzBuzzTest.testnumberFizzBuzzShouldReturnBuzzWhenInputNumberDivisibleBy5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="vn.nguyen.Model.*" />
@@ -695,7 +600,85 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="vn.nguyen.Model" />
       <option name="MAIN_CLASS_NAME" value="vn.nguyen.Model.FizzBuzzTest" />
-      <option name="METHOD_NAME" value="testNumberShouldReturn1WhenInputNumnerIs1" />
+      <option name="METHOD_NAME" value="testnumberFizzBuzzShouldReturnBuzzWhenInputNumberDivisibleBy5" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="FizzBuzzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="vn.nguyen.Model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="JavaTDD" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="vn.nguyen.Model" />
+      <option name="MAIN_CLASS_NAME" value="vn.nguyen.Model.FizzBuzzTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="FizzBuzzTest.testnumberFizzBuzzShouldReturnNumberWhenInputNumberHaveNotFizzOrBuzz" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="vn.nguyen.Model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="JavaTDD" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="vn.nguyen.Model" />
+      <option name="MAIN_CLASS_NAME" value="vn.nguyen.Model.FizzBuzzTest" />
+      <option name="METHOD_NAME" value="testnumberFizzBuzzShouldReturnNumberWhenInputNumberHaveNotFizzOrBuzz" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="FizzBuzzTest.testnumberFizzBuzzShouldReturnFizzBuzzWhenInputNumberDivisibleBy3and5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="vn.nguyen.Model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="JavaTDD" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="vn.nguyen.Model" />
+      <option name="MAIN_CLASS_NAME" value="vn.nguyen.Model.FizzBuzzTest" />
+      <option name="METHOD_NAME" value="testnumberFizzBuzzShouldReturnFizzBuzzWhenInputNumberDivisibleBy3and5" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1199,19 +1182,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.StringHelperTest.testswapLast2CharsWith10Char" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.StringHelperTest.testswapLast2CharsWith1Char" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.StringHelperTest.testswapLast2CharsWith0Char" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.FizzBuzzTest.testNumber" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.FizzBuzzTest.testNumberShouldReturn1WhenInputNumnerIs1" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.FizzBuzzTest.testnumberFizzBuzzShouldReturnFizzWhenInputNumberDivisibleBy3" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.FizzBuzzTest.testnumberFizzBuzzShouldReturnBuzzWhenInputNumberDivisibleBy5" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.FizzBuzzTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.FizzBuzzTest.testnumberFizzBuzzShouldReturnNumberWhenInputNumberHaveNotFizzOrBuzz" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.FizzBuzzTest.testnumberFizzBuzzShouldReturnFizzBuzzWhenInputNumberDivisibleBy3and5" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.FizzBuzzTest.testNumberShouldReturn1WhenInputNumnerIs1" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.FizzBuzzTest.testNumber" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.StringHelperTest.testswapLast2CharsWith0Char" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.StringHelperTest.testswapLast2CharsWith1Char" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.StringHelperTest.testswapLast2CharsWith10Char" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.FizzBuzzTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.FizzBuzzTest.testnumberFizzBuzzShouldReturnFizzBuzzWhenInputNumberDivisibleBy3and5" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.FizzBuzzTest.testnumberFizzBuzzShouldReturnNumberWhenInputNumberHaveNotFizzOrBuzz" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.FizzBuzzTest.testnumberFizzBuzzShouldReturnBuzzWhenInputNumberDivisibleBy5" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.FizzBuzzTest.testnumberFizzBuzzShouldReturnFizzWhenInputNumberDivisibleBy3" />
       </list>
     </recent_temporary>
   </component>
@@ -1247,7 +1230,7 @@
       <workItem from="1519269275344" duration="532000" />
       <workItem from="1519377365188" duration="29000" />
       <workItem from="1519785001690" duration="3075000" />
-      <workItem from="1520408959736" duration="9532000" />
+      <workItem from="1520408959736" duration="12647000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor code">
       <created>1511770627238</created>
@@ -1340,43 +1323,50 @@
       <option name="project" value="LOCAL" />
       <updated>1521605348402</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="FizzBuzz refactor first step check 1 = 1">
+      <created>1521605453933</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1521605453933</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FizzBuzzTest_testNumber - 2018.03.21 at 10h 53m 54s.xml">
-      <configuration name="FizzBuzzTest.testNumber" configurationId="JUnit" />
+    <history-entry file="FizzBuzzTest - 2018.03.21 at 11h 30m 58s.xml">
+      <configuration name="FizzBuzzTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizzBuzzTest_testNumber - 2018.03.21 at 11h 08m 07s.xml">
-      <configuration name="FizzBuzzTest.testNumber" configurationId="JUnit" />
+    <history-entry file="FizzBuzzTest - 2018.03.21 at 14h 20m 31s.xml">
+      <configuration name="FizzBuzzTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizzBuzzTest_testNumberShouldReturn1WhenInputNumnerIs1 - 2018.03.21 at 11h 08m 55s.xml">
-      <configuration name="FizzBuzzTest.testNumberShouldReturn1WhenInputNumnerIs1" configurationId="JUnit" />
+    <history-entry file="FizzBuzzTest - 2018.03.21 at 14h 23m 57s.xml">
+      <configuration name="FizzBuzzTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizzBuzzTest_testNumberShouldReturn1WhenInputNumnerIs1 - 2018.03.21 at 11h 10m 31s.xml">
-      <configuration name="FizzBuzzTest.testNumberShouldReturn1WhenInputNumnerIs1" configurationId="JUnit" />
+    <history-entry file="FizzBuzzTest_testnumberFizzBuzzShouldReturnBuzzWhenInputNumberDivisibleBy5 - 2018.03.21 at 13h 29m 39s.xml">
+      <configuration name="FizzBuzzTest.testnumberFizzBuzzShouldReturnBuzzWhenInputNumberDivisibleBy5" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringHelperTest_testswapLast2CharsWith0Char - 2018.03.21 at 09h 30m 13s.xml">
-      <configuration name="StringHelperTest.testswapLast2CharsWith0Char" configurationId="JUnit" />
+    <history-entry file="FizzBuzzTest_testnumberFizzBuzzShouldReturnFizzBuzzWhenInputNumberDivisibleBy3and5 - 2018.03.21 at 14h 09m 31s.xml">
+      <configuration name="FizzBuzzTest.testnumberFizzBuzzShouldReturnFizzBuzzWhenInputNumberDivisibleBy3and5" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringHelperTest_testswapLast2CharsWith10Char - 2018.03.21 at 09h 17m 14s.xml">
-      <configuration name="StringHelperTest.testswapLast2CharsWith10Char" configurationId="JUnit" />
+    <history-entry file="FizzBuzzTest_testnumberFizzBuzzShouldReturnFizzBuzzWhenInputNumberDivisibleBy3and5 - 2018.03.21 at 14h 10m 52s.xml">
+      <configuration name="FizzBuzzTest.testnumberFizzBuzzShouldReturnFizzBuzzWhenInputNumberDivisibleBy3and5" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringHelperTest_testswapLast2CharsWith1Char - 2018.03.21 at 09h 26m 57s.xml">
-      <configuration name="StringHelperTest.testswapLast2CharsWith1Char" configurationId="JUnit" />
+    <history-entry file="FizzBuzzTest_testnumberFizzBuzzShouldReturnFizzBuzzWhenInputNumberDivisibleBy3and5 - 2018.03.21 at 14h 15m 08s.xml">
+      <configuration name="FizzBuzzTest.testnumberFizzBuzzShouldReturnFizzBuzzWhenInputNumberDivisibleBy3and5" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringHelperTest_testswapLast2CharsWith1Char - 2018.03.21 at 09h 29m 04s.xml">
-      <configuration name="StringHelperTest.testswapLast2CharsWith1Char" configurationId="JUnit" />
+    <history-entry file="FizzBuzzTest_testnumberFizzBuzzShouldReturnFizzBuzzWhenInputNumberDivisibleBy3and5 - 2018.03.21 at 14h 18m 06s.xml">
+      <configuration name="FizzBuzzTest.testnumberFizzBuzzShouldReturnFizzBuzzWhenInputNumberDivisibleBy3and5" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringHelperTest_testswapLast2CharsWith4Char - 2018.03.21 at 09h 03m 55s.xml">
-      <configuration name="StringHelperTest.testswapLast2CharsWith4Char" configurationId="JUnit" />
+    <history-entry file="FizzBuzzTest_testnumberFizzBuzzShouldReturnFizzBuzzWhenInputNumberDivisibleBy3and5 - 2018.03.21 at 14h 20m 14s.xml">
+      <configuration name="FizzBuzzTest.testnumberFizzBuzzShouldReturnFizzBuzzWhenInputNumberDivisibleBy3and5" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringHelperTest_testswapLast2CharsWith4Char - 2018.03.21 at 09h 12m 51s.xml">
-      <configuration name="StringHelperTest.testswapLast2CharsWith4Char" configurationId="JUnit" />
+    <history-entry file="FizzBuzzTest_testnumberFizzBuzzShouldReturnNumberWhenInputNumberHaveNotFizzOrBuzz - 2018.03.21 at 14h 06m 56s.xml">
+      <configuration name="FizzBuzzTest.testnumberFizzBuzzShouldReturnNumberWhenInputNumberHaveNotFizzOrBuzz" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81608000" />
+    <option name="totallyTimeSpent" value="84723000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1867" y="-88" width="1718" height="931" extended-state="0" />
@@ -1404,7 +1394,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43892047" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4386174" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1431,7 +1421,8 @@
     <MESSAGE value="StringHelper with swapChar" />
     <MESSAGE value="StringHelper with swapChar with step by step" />
     <MESSAGE value="FizzBuzz first step" />
-    <option name="LAST_COMMIT_MESSAGE" value="FizzBuzz first step" />
+    <MESSAGE value="FizzBuzz refactor first step check 1 = 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="FizzBuzz refactor first step check 1 = 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1481,7 +1472,7 @@
           <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="41" />
+      <option name="time" value="43" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1637,7 +1628,6 @@
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-all/1.9.5/mockito-all-1.9.5.jar!/org/mockito/internal/creation/MethodInterceptorFilter.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/model/FrameworkMethod.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/vn/nguyen/service/impl/PersonService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1666,7 +1656,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/vn/nguyen/service/impl/BookImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1740,14 +1729,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/vn/nguyen/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/vn/nguyen/service/impl/UserServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="413">
@@ -1816,24 +1797,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/vn/nguyen/Model/FizzBuzz.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="37" lean-forward="false" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding>
-            <element signature="e#134#135#0" expanded="true" />
-            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#1657#1658#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/vn/nguyen/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/vn/nguyen/Model/FizzBuzzTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        <state relative-caret-position="370">
+          <caret line="27" column="74" lean-forward="false" selection-start-line="27" selection-start-column="74" selection-end-line="27" selection-end-column="74" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/vn/nguyen/Model/FizzBuzz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
