@@ -11,6 +11,10 @@ public class StringHelper {
 //        return "" + secondChar + firstChar;
         //swap ABDC = ABCD
         int lengthOfText = text.length();
+        //check testCase 1 char
+        if (lengthOfText < 2) {
+            return text;
+        }
         String textMinusLast2Chars = text.substring(0,lengthOfText-2);
         char secondLastChar = text.charAt(lengthOfText - 2);
         char lastChar = text.charAt(lengthOfText - 1);

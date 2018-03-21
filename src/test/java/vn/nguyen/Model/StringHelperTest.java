@@ -44,4 +44,11 @@ public class StringHelperTest {
         String actual = "A";
         assertThat(actual,is(stringHelper.swapLast2Chars("A")));
     }
+
+    @Test
+    public void testswapLast2CharsWith0Char() throws Exception {
+        StringHelper stringHelper = new StringHelper();
+        String actual = "";
+        assertThat(actual,is(stringHelper.swapLast2Chars("")));
+    }
 }
