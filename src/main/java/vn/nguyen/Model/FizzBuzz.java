@@ -5,6 +5,6 @@ package vn.nguyen.Model;
  */
 public class FizzBuzz {
     public String numberFizzBuzz(int number) {
-        return "1";
+        return String.valueOf(number);
     }
 }

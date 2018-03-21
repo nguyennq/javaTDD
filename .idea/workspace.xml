@@ -4,7 +4,6 @@
     <list default="true" id="6d196300-ee0f-413b-aef2-551c45db34e6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/vn/nguyen/Model/FizzBuzz.java" afterPath="$PROJECT_DIR$/src/main/java/vn/nguyen/Model/FizzBuzz.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/vn/nguyen/Model/FizzBuzzTest.java" afterPath="$PROJECT_DIR$/src/test/java/vn/nguyen/Model/FizzBuzzTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -106,10 +105,10 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/vn/nguyen/Model/FizzBuzz.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+              <caret line="7" column="37" lean-forward="false" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
               <folding>
                 <element signature="e#134#135#0" expanded="true" />
-                <element signature="e#160#161#0" expanded="true" />
+                <element signature="e#179#180#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -118,8 +117,8 @@
       <file leaf-file-name="FizzBuzzTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/vn/nguyen/Model/FizzBuzzTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="78" lean-forward="true" selection-start-line="19" selection-start-column="78" selection-end-line="19" selection-end-column="78" />
+            <state relative-caret-position="360">
+              <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1248,7 +1247,7 @@
       <workItem from="1519269275344" duration="532000" />
       <workItem from="1519377365188" duration="29000" />
       <workItem from="1519785001690" duration="3075000" />
-      <workItem from="1520408959736" duration="9442000" />
+      <workItem from="1520408959736" duration="9532000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor code">
       <created>1511770627238</created>
@@ -1334,7 +1333,14 @@
       <option name="project" value="LOCAL" />
       <updated>1521604462277</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="FizzBuzz first step">
+      <created>1521605348402</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1521605348402</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1347,8 +1353,8 @@
     <history-entry file="FizzBuzzTest_testNumberShouldReturn1WhenInputNumnerIs1 - 2018.03.21 at 11h 08m 55s.xml">
       <configuration name="FizzBuzzTest.testNumberShouldReturn1WhenInputNumnerIs1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringHelperTest_testStrWith2CharsIsReversed - 2018.03.21 at 09h 00m 38s.xml">
-      <configuration name="StringHelperTest.testStrWith2CharsIsReversed" configurationId="JUnit" />
+    <history-entry file="FizzBuzzTest_testNumberShouldReturn1WhenInputNumnerIs1 - 2018.03.21 at 11h 10m 31s.xml">
+      <configuration name="FizzBuzzTest.testNumberShouldReturn1WhenInputNumnerIs1" configurationId="JUnit" />
     </history-entry>
     <history-entry file="StringHelperTest_testswapLast2CharsWith0Char - 2018.03.21 at 09h 30m 13s.xml">
       <configuration name="StringHelperTest.testswapLast2CharsWith0Char" configurationId="JUnit" />
@@ -1370,7 +1376,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81518000" />
+    <option name="totallyTimeSpent" value="81608000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1867" y="-88" width="1718" height="931" extended-state="0" />
@@ -1813,18 +1819,18 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/vn/nguyen/Model/FizzBuzz.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <caret line="7" column="37" lean-forward="false" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
           <folding>
             <element signature="e#134#135#0" expanded="true" />
-            <element signature="e#160#161#0" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/vn/nguyen/Model/FizzBuzzTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="78" lean-forward="true" selection-start-line="19" selection-start-column="78" selection-end-line="19" selection-end-column="78" />
+        <state relative-caret-position="360">
+          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
