@@ -66,8 +66,17 @@ public class UserServiceImplTest {
         assertEquals("456",spyImpl.getPasswordService());
     }
 
+    @Test
+    public void testfindById_ShouldReturnUserWhenUserIdFound() throws Exception {
+        User userPrepare = preparedUser();
+        when(userDAO.findById("u01")).thenReturn(userPrepare);
+        User expected = userServiceImpl.findById("u01");
+        assertThat(expected.getUserId()).isEqualTo(userPrepare.getUserId());
+
+    }
+
     private User preparedUser() {
-        User user = new User("abc", "123");
+        User user = new User("u01","abc", "123");
         return user;
     }
 }

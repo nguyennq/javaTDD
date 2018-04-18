@@ -51,4 +51,6 @@ public class StringHelperTest {
         String actual = "";
         assertThat(actual,is(stringHelper.swapLast2Chars("")));
     }
+
+
 }

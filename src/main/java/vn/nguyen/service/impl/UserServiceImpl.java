@@ -12,7 +12,7 @@ public class UserServiceImpl implements UserService, UserDAO, SecurityService{
     private UserService userService;
     private UserDAO userDAO;
     private SecurityService securityService;
-    User user = new User("abc", "123");
+    User user = new User("u01","abc", "123");
 
     public UserServiceImpl(UserService userService, UserDAO userDAO, SecurityService securityService) {
         this.userService = userService;
@@ -34,6 +34,17 @@ public class UserServiceImpl implements UserService, UserDAO, SecurityService{
     @Override
     public void updateUser(UserService userService) {
 //        user.setPassword(userService.setPasswordService(););
+    }
+
+    @Override
+    public User findById(String userId) {
+        if(user.getUserId() == userId){
+            return user;
+        }
+        else {
+            return null;
+        }
+//        return null;
     }
 
     @Override
