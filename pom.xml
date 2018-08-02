@@ -50,8 +50,6 @@
       <artifactId>conductor</artifactId>
       <version>3.0.1</version>
     </dependency>
-
-
     <!-- https://mvnrepository.com/artifact/org.assertj/assertj-core -->
     <dependency>
       <groupId>org.assertj</groupId>

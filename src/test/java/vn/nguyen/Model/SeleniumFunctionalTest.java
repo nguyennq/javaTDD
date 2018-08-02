@@ -16,7 +16,7 @@ import org.openqa.selenium.By;
         browser = Browser.SAFARI, // the browser to use.
         hub = "" // you can specify a hub hostname / ip here.
 )
-public class SampleFunctionalTest extends Locomotive {
+public class SeleniumFunctionalTest extends Locomotive {
 
     @Test
     public void yourFirstTest() {
